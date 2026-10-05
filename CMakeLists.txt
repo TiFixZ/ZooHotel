@@ -7,6 +7,9 @@ add_executable(ZooHotel
     ZooHotel/src/Pet.cpp
     ZooHotel/src/Owner.cpp
     ZooHotel/src/Utilities.cpp
+    ZooHotel/src/Employee.cpp
+    ZooHotel/src/Contract.cpp
+    ZooHotel/src/Room.cpp
 )
 
 target_compile_features(ZooHotel PRIVATE cxx_std_20)
